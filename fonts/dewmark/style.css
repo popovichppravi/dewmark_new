@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'dewmark';
+  src:  url('font/dewmark.eot?cjhurt');
+  src:  url('font/dewmark.eot?cjhurt#iefix') format('embedded-opentype'),
+    url('font/dewmark.ttf?cjhurt') format('truetype'),
+    url('font/dewmark.woff?cjhurt') format('woff'),
+    url('font/dewmark.svg?cjhurt#dewmark') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i.dew {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dewmark' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.dew-wall:before {
+  content: "\e92d";
+}
+.dew-pipe:before {
+  content: "\e92a";
+}
+.dew-profile:before {
+  content: "\e92b";
+}
+.dew-snowflake:before {
+  content: "\e92c";
+}
+
+.dew-waterstop:before {
+  content: "\e929";
+}
+
+.dew-load .path1:before {
+  content: "\e921";
+  color: rgb(0, 0, 0);
+}
+.dew-load .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(85, 85, 85);
+  opacity: 0.67;
+}
+.dew-load .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(148, 148, 148);
+  opacity: 0.42;
+}
+.dew-load .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(204, 204, 204);
+  opacity: 0.2;
+}
+.dew-load .path5:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(225, 225, 225);
+  opacity: 0.12;
+}
+.dew-load .path6:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(225, 225, 225);
+  opacity: 0.12;
+}
+.dew-load .path7:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(225, 225, 225);
+  opacity: 0.12;
+}
+.dew-load .path8:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(225, 225, 225);
+  opacity: 0.12;
+}
+.dew-flame:before {
+  content: "\e91f";
+}
+.dew-other:before {
+  content: "\e920";
+}
+.dew-mail:before {
+  content: "\e91e";
+}
+.dew-pdf-logo:before {
+  content: "\e91d";
+}
+.dew-facebook:before {
+  content: "\e917";
+}
+.dew-odnoklassniki:before {
+  content: "\e918";
+}
+.dew-skype:before {
+  content: "\e919";
+}
+.dew-twitter:before {
+  content: "\e91a";
+}
+.dew-vk:before {
+  content: "\e91b";
+}
+.dew-youtube:before {
+  content: "\e91c";
+}
+.dew-hexagons:before {
+  content: "\e915";
+}
+.dew-list:before {
+  content: "\e916";
+}
+.dew-car:before {
+  content: "\e907";
+}
+.dew-loader:before {
+  content: "\e909";
+}
+.dew-truck:before {
+  content: "\e90a";
+}
+.dew-dwg:before {
+  content: "\e913";
+}
+.dew-pdf:before {
+  content: "\e914";
+}
+.dew-next:before {
+  content: "\e912";
+}
+.dew-bridge:before {
+  content: "\e90c";
+}
+.dew-concrete:before {
+  content: "\e90d";
+}
+.dew-heavy:before {
+  content: "\e90e";
+}
+.dew-hydro:before {
+  content: "\e90f";
+}
+.dew-metall:before {
+  content: "\e910";
+}
+.dew-standart:before {
+  content: "\e911";
+}
+.dew-close:before {
+  content: "\e90b";
+}
+.dew-cart:before {
+  content: "\e908";
+}
+.dew-man:before {
+  content: "\e902";
+}
+.dew-mans:before {
+  content: "\e903";
+}
+.dew-position-pointer:before {
+  content: "\e900";
+}
+.dew-telephone:before {
+  content: "\e901";
+}
+.dew-speech-bubble:before {
+  content: "\e904";
+}
+.dew-information:before {
+  content: "\e905";
+}
+.dew-search:before {
+  content: "\e906";
+}
+.dew-spinner:before {
+  content: "\e97a";
+}
