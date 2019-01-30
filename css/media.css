@@ -1,5 +1,5 @@
 /*==========  Desktop First Method  ==========*/
- 
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -7,26 +7,44 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+  .dl-banner
+  {
+    display: none;
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 880px) {
-	
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+.main-btn
+{
+  font-size: 12px;
+  padding: 8px 20px;
+}
+.bottom_logo img
+{
+  max-width: 200px;
+}
 }
 
 @media only screen and (max-width : 576px) {
-
+  .main-btn
+  {
+    display: none;
+  }
+  .header-top-list
+  {
+    text-align: center;
+  }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+
 }
 
 /* Custom, iPhone Retina */

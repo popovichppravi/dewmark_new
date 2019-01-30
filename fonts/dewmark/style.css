@@ -23,6 +23,10 @@ i.dew {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.dew-phone-call:before {
+  content: "\e901";
+}
 .dew-wall:before {
   content: "\e92d";
 }
@@ -35,11 +39,12 @@ i.dew {
 .dew-snowflake:before {
   content: "\e92c";
 }
-
 .dew-waterstop:before {
   content: "\e929";
 }
-
+.dew-spinner:before {
+  content: "\e97a";
+}
 .dew-load .path1:before {
   content: "\e921";
   color: rgb(0, 0, 0);
@@ -173,9 +178,6 @@ i.dew {
 .dew-position-pointer:before {
   content: "\e900";
 }
-.dew-telephone:before {
-  content: "\e901";
-}
 .dew-speech-bubble:before {
   content: "\e904";
 }
@@ -184,7 +186,4 @@ i.dew {
 }
 .dew-search:before {
   content: "\e906";
-}
-.dew-spinner:before {
-  content: "\e97a";
 }

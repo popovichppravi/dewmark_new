@@ -14,14 +14,14 @@
   --yellow: #ffc107;
   --green: #28a745;
   --teal: #20c997;
-  --cyan: #17a2b8;
+  --cyan: #25B8D7;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
-  --info: #17a2b8;
+  --info: #25B8D7;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
@@ -42,8 +42,10 @@
 }
 
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
@@ -60,10 +62,11 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
+  font-family: "Roboto";
   font-weight: 400;
-  line-height: 1.5;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
   color: #212529;
   text-align: left;
   background-color: #fff;
@@ -161,15 +164,14 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
+  color: #25B8D7;
+  text-decoration: underline;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {
@@ -190,7 +192,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Roboto";
   font-size: 1em;
 }
 
@@ -250,7 +252,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: "Roboto";
   font-size: inherit;
   line-height: inherit;
 }
@@ -361,7 +363,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
+  font-family: "Roboto";
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
@@ -509,7 +511,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: "Roboto";
 }
 
 code {
@@ -555,8 +557,8 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -587,8 +589,8 @@ pre code {
 
 .container-fluid {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -599,8 +601,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: -10px;
+  margin-left: -10px;
 }
 
 .no-gutters {
@@ -623,8 +625,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .col {
@@ -1957,14 +1959,13 @@ pre code {
 .form-control {
   display: block;
   width: 100%;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  line-height: 1.5;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 1;
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
@@ -2012,7 +2013,7 @@ pre code {
 }
 
 select.form-control:not([size]):not([multiple]) {
-  height: calc(2.25rem + 2px);
+  /*height: calc(2.25rem + 2px);*/
 }
 
 select.form-control:focus::-ms-value {
@@ -2081,7 +2082,6 @@ select.form-control:focus::-ms-value {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
 }
 
 select.form-control-sm:not([size]):not([multiple]), .input-group-sm > select.form-control:not([size]):not([multiple]),
@@ -2108,11 +2108,11 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .input-group-lg > .input-group-append > select.input-group-text:not([size]):not([multiple]),
 .input-group-lg > .input-group-prepend > select.btn:not([size]):not([multiple]),
 .input-group-lg > .input-group-append > select.btn:not([size]):not([multiple]) {
-  height: calc(2.875rem + 2px);
+  /*height: calc(2.875rem + 2px);*/
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 
 .form-text {
@@ -2605,8 +2605,8 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #25B8D7;
+  border-color: #25B8D7;
 }
 
 .btn-info:hover {
@@ -2621,8 +2621,8 @@ fieldset:disabled a.btn {
 
 .btn-info.disabled, .btn-info:disabled {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #25B8D7;
+  border-color: #25B8D7;
 }
 
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
@@ -2876,16 +2876,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info {
-  color: #17a2b8;
+  color: #25B8D7;
   background-color: transparent;
   background-image: none;
-  border-color: #17a2b8;
+  border-color: #25B8D7;
 }
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #25B8D7;
+  border-color: #25B8D7;
 }
 
 .btn-outline-info:focus, .btn-outline-info.focus {
@@ -2893,15 +2893,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info.disabled, .btn-outline-info:disabled {
-  color: #17a2b8;
+  color: #25B8D7;
   background-color: transparent;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
 .show > .btn-outline-info.dropdown-toggle {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #25B8D7;
+  border-color: #25B8D7;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
@@ -3076,10 +3076,12 @@ fieldset:disabled a.btn {
 }
 
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
+  padding: 5px 25px;
   font-size: 0.875rem;
-  line-height: 1.5;
-  border-radius: 0.2rem;
+  line-height: 1;
+  -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
 }
 
 .btn-block {
@@ -3562,17 +3564,19 @@ tbody.collapse.show {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 0.375rem 0.75rem;
+  padding: 7px;
   margin-bottom: 0;
-  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1;
   color: #495057;
   text-align: center;
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+}
+.input-group-addon .input-group-text
+{
+  border-left: none;
 }
 
 .input-group-text input[type="radio"],
@@ -4559,7 +4563,7 @@ tbody.collapse.show {
 }
 
 .card-deck .card {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 576px) {
@@ -4568,8 +4572,8 @@ tbody.collapse.show {
     -webkit-box-direction: normal;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -10px;
+    margin-left: -10px;
   }
   .card-deck .card {
     display: -webkit-box;
@@ -4582,9 +4586,9 @@ tbody.collapse.show {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin-right: 15px;
+    margin-right: 10px;
     margin-bottom: 0;
-    margin-left: 15px;
+    margin-left: 10px;
   }
 }
 
@@ -4599,7 +4603,7 @@ tbody.collapse.show {
 }
 
 .card-group > .card {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 576px) {
@@ -4876,7 +4880,7 @@ tbody.collapse.show {
 
 .badge-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #25B8D7;
 }
 
 .badge-info[href]:hover, .badge-info[href]:focus {
@@ -5569,7 +5573,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5682,7 +5686,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6105,7 +6109,7 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #25B8D7 !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
@@ -6215,7 +6219,7 @@ button.bg-dark:focus {
 }
 
 .border-info {
-  border-color: #17a2b8 !important;
+  border-color: #25B8D7 !important;
 }
 
 .border-warning {
@@ -8848,7 +8852,7 @@ a.text-success:hover, a.text-success:focus {
 }
 
 .text-info {
-  color: #17a2b8 !important;
+  color: #25B8D7 !important;
 }
 
 a.text-info:hover, a.text-info:focus {
